@@ -6,7 +6,6 @@ import streamlit as st
 import datetime as dt
 from pandas_datareader import data as web
 import plotly.graph_objects as go
-import openpyxl
 
 # Goal algorithm
 # Grab Last Week Price
