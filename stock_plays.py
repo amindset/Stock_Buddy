@@ -268,6 +268,17 @@ with left_column:
     # Project a score for the stock
     # Create a txt file called watchlist
     # Add specific stocks to watchlist
+    
+    # Print stock info
+    st.subheader("**Earnings**")
+    st.write("Current earnings projections are " + str(currentQTRearnings))
+    st.write("Last quarter earnings projections are " + str(lastQTRearnings))
+    st.write("Year ago earnings projections are " + str(yearAGOearnings))
+    st.write('')
+    st.subheader("**Trends**")
+    st.write("5 Days ago " + str(stock) + " has been trending at " + str(trendLines5D) + "%")
+    st.write("1 Month ago " + str(stock) + " has been trending at " + str(trendLines1M) + "%")
+    st.write("3 Months ago " + str(stock) + " has been trending at " + str(trendLines3M) + "%")
 
     Stock_points = 0
 
@@ -782,6 +793,19 @@ with right_column:
     # Project a score for the stock
     # Create a txt file called watchlist
     # Add specific stocks to watchlist
+    
+    
+    # Print stock info
+    st.subheader("**Earnings**")
+    st.write("Current earnings projections are " + str(currentQTRearnings))
+    st.write("Last quarter earnings projections are " + str(lastQTRearnings))
+    st.write("Year ago earnings projections are " + str(yearAGOearnings))
+    st.write('')
+    st.subheader("**Trends**")
+    st.write("5 Days ago " + str(stock3) + " has been trending at " + str(trendLines5D) + "%")
+    st.write("1 Month ago " + str(stock3) + " has been trending at " + str(trendLines1M) + "%")
+    st.write("3 Months ago " + str(stock3) + " has been trending at " + str(trendLines3M) + "%")
+    
 
     Stock_points = 0
 
